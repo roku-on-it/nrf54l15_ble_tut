@@ -15,4 +15,4 @@ static const struct gpio_dt_spec led2 = GPIO_DT_SPEC_GET(LED2_NODE, gpios);
 static const struct gpio_dt_spec led3 = GPIO_DT_SPEC_GET(LED3_NODE, gpios);
 
 void configure_leds(const struct gpio_dt_spec led_arr[], size_t len);
-void cycle_leds();
+void cycle_leds(const struct gpio_dt_spec led_arr[], size_t len);
