@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "kernel.h": "c",
+        "log.h": "c",
+        "gpio.h": "c",
+        "leds.h": "c",
+        "uart_native_tty_bottom.h": "c",
+        "array": "c",
+        "*.tcc": "c",
+        "cstdio": "c",
+        "stdio.h": "c",
+        "compare": "c",
+        "typeinfo": "c"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/mranderson/ncs/v2.9.0/zephyr/include",
+                "${workspaceFolder}/build/ble_tut/zephyr/include/generated"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "nordic-semiconductor.nrf-connect"
+        }
+    ],
+    "version": 4
+}
